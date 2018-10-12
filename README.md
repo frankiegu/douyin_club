@@ -1,4 +1,4 @@
-# video_server
+# douyin_club
 
 前后端解耦优势
 1 解放生产力，提高合作效率
