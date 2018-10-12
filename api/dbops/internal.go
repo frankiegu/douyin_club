@@ -5,7 +5,7 @@ import (
 	"sync"
 	"log"
 	"database/sql"
-	"github.com/Yq2/video_server/api/defs"
+	"github.com/Yq2/douyin_club/api/defs"
 )
 
 func InsertSession(sid string, ttl int64, uname string) error {

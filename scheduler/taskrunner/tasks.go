@@ -3,9 +3,9 @@ package taskrunner
 import (
 	"errors"
 	"sync"
-	"github.com/Yq2/video_server/scheduler/dbops"
-	"github.com/Yq2/video_server/scheduler/ossops"
-	Logger "github.com/Yq2/video_server/scheduler/logs"
+	"github.com/Yq2/douyin_club/scheduler/dbops"
+	"github.com/Yq2/douyin_club/scheduler/ossops"
+	Logger "github.com/Yq2/douyin_club/scheduler/logs"
 	"time"
 )
 var log = Logger.Log

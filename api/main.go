@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/Yq2/video_server/api/session"
+	"github.com/Yq2/douyin_club/api/session"
 	"github.com/julienschmidt/httprouter"
 	"net/http"
-	Logger "github.com/Yq2/video_server/api/logs"
+	Logger "github.com/Yq2/douyin_club/api/logs"
 )
 
 var log = Logger.Log

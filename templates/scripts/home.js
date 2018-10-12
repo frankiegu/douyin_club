@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    DEFAULT_COOKIE_EXPIRE_TIME = 60 *2;
+    DEFAULT_COOKIE_EXPIRE_TIME = 60 *60;
 
     uname = '';
     session = '';

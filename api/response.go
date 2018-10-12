@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/Yq2/video_server/api/defs"
+	"github.com/Yq2/douyin_club/api/defs"
 	"io"
 	"net/http"
 )

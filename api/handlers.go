@@ -2,10 +2,10 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/Yq2/video_server/api/dbops"
-	"github.com/Yq2/video_server/api/defs"
-	"github.com/Yq2/video_server/api/session"
-	"github.com/Yq2/video_server/api/utils"
+	"github.com/Yq2/douyin_club/api/dbops"
+	"github.com/Yq2/douyin_club/api/defs"
+	"github.com/Yq2/douyin_club/api/session"
+	"github.com/Yq2/douyin_club/api/utils"
 	"github.com/julienschmidt/httprouter"
 	"io/ioutil"
 	"net/http"

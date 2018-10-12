@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 	"github.com/julienschmidt/httprouter"
-	"github.com/Yq2/video_server/scheduler/taskrunner"
-	 Logger "github.com/Yq2/video_server/scheduler/logs"
+	"github.com/Yq2/douyin_club/scheduler/taskrunner"
+	 Logger "github.com/Yq2/douyin_club/scheduler/logs"
 )
 var log = Logger.Log
 

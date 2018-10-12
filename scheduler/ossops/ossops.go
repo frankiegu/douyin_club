@@ -1,7 +1,7 @@
 package ossops 
 
 import (
-	Logger "github.com/Yq2/video_server/scheduler/logs"
+	Logger "github.com/Yq2/douyin_club/scheduler/logs"
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 	"Yq2/config"
 )

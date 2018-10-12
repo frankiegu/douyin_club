@@ -3,9 +3,9 @@ package session
 import (
 	"time"
 	"sync"
-	"github.com/Yq2/video_server/api/defs"
-	"github.com/Yq2/video_server/api/dbops"
-	"github.com/Yq2/video_server/api/utils"
+	"github.com/Yq2/douyin_club/api/defs"
+	"github.com/Yq2/douyin_club/api/dbops"
+	"github.com/Yq2/douyin_club/api/utils"
 )
 
 var sessionMap *sync.Map
@@ -42,7 +42,7 @@ func GenerateNewSessionId(un string) string {
 	id, _ := utils.NewUUID()
 	ct := nowInMilli()
 	//session过期时间为30分钟
-	ttl := ct + 2 *60 * 60 * 1000// Severside session valid time: 2h
+	ttl := ct + 60 *60 * 60 * 1000// Severside session valid time: 2h
 
 	ss := &defs.SimpleSession{Username: un, TTL: ttl}
 	sessionMap.Store(id, ss)

@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 	"github.com/julienschmidt/httprouter"
-	Logger "github.com/Yq2/video_server/web/logs"
+	Logger "github.com/Yq2/douyin_club/web/logs"
 )
 
 var log = Logger.Log

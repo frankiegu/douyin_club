@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/Yq2/video_server/api/defs"
-	"github.com/Yq2/video_server/api/session"
+	"github.com/Yq2/douyin_club/api/defs"
+	"github.com/Yq2/douyin_club/api/session"
 	"net/http"
 )
 
